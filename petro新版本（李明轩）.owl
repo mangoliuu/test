@@ -1,0 +1,2585 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#edm:country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#edm:country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:_hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:_hasType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:_isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:_isTypeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:city -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:city">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasApplication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasApplication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasConstruction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasConstruction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasManager -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:hasManager">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isApplicationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isApplicationOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isConstructionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isConstructionOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isManagerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:isManagerOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:locateIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:locateIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:province -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:province">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:town -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:town">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#rel:CollaboratesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#rel:CollaboratesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#rel:ColleagueOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#rel:ColleagueOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#swrc:address -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#swrc:address">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/abstract">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/date">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#dcterms：identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#dcterms：identifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#mo：level -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#mo：level">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#bibo:status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#bibo:status">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#dc:name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#dc:name">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:birthday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:birthday">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:title">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#pay:payment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#pay:payment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:casingDepth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:casingDepth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>套管下深</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:casingOutsideDiameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:casingOutsideDiameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>套管外径</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:cementReturnVolume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:cementReturnVolume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>水泥返深</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:drillBitDiameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:drillBitDiameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>钻头尺寸</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellClassificationCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellClassificationCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井别代码</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellControlLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellControlLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井控级别</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellDepth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellDepth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>井深</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellElevationHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellElevationHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>井高</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellKindCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellKindCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井型代码</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井名</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井号</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellStatusCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:wellStatusCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>井状态代码</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:上提极限载荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:上提极限载荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:下辊直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:下辊直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:中心杆外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:中心杆外径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:中辊直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:中辊直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井内最大抗拉负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井内最大抗拉负荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井内锁定工具压力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井内锁定工具压力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:使用规范 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:使用规范">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞杯"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长锥面胀管器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:允许最小通经 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:允许最小通经">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:内径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:内径">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:允许最小通经"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:冲程 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:冲程">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割管外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割管外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割管径（油管或套管） -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割管径（油管或套管）">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:剪销剪断力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:剪销剪断力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:割刀外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:割刀外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦对芯轴同轴度公差 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦对芯轴同轴度公差">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦窜动量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦窜动量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦类型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦类型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:吸力A和B -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:吸力A和B">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:堆焊合金厚度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:堆焊合金厚度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:备注 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:备注">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:外形尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:外形尺寸">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长锥面胀管器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:外径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套管尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套管尺寸">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋片外钩"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套管直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套管直径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:局部反循环打捞篮"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:密封压力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:密封压力">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工作井筒 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工作井筒">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工具尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工具尺寸">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:局部反循环打捞篮"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工具最大外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:工具最大外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:径向 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:径向">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:总长 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:总长">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打开时总长 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打开时总长">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞尺寸">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣）"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞尺寸内径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞尺寸内径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:伸缩捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯鱼头捞筒"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞接箍外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞接箍外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞管径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞管径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞范围 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞范围">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞落物内径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞落物内径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞落物外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞落物外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接箍捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:母锥"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹牙型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹牙型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:公锥"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞螺纹直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:扣型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:扣型">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长锥面胀管器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:扭矩 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:扭矩">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抗拉极限负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抗拉极限负荷">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉开全行程力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉开全行程力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉开总长 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉开总长">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:拉负荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:公锥"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头屈服扭矩 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头屈服扭矩">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头扣型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头扣型">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯鱼头捞筒"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:伸缩捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:母锥"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活动外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋片外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹代号 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹代号">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头螺纹直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头连接螺纹 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接头连接螺纹">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接箍捞矛"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:推荐使用钻铤质量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:推荐使用钻铤质量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:推荐最大工作负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:推荐最大工作负荷">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形尺寸分段 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形尺寸分段">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形率 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形率">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形范围 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形范围">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大上提负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大上提负荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大扭矩 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大扭矩">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大抗拉负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大抗拉负荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大落鱼直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大落鱼直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大行程 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大行程">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大长度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大长度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大震击力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:最大震击力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:杆接箍外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:杆接箍外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:材质强度，MPa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:材质强度，MPa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:水眼直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:水眼直径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压缸压力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压缸压力">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块数 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块数">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径x长度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径x长度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径偏差 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:直径偏差">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:窗口排数 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:窗口排数">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:窗舌数 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:窗舌数">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:缸内最大外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:缸内最大外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物名称 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物名称">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物最大直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物最大直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:局部反循环打捞篮"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物规格 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:落物规格">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋片外钩"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:行程 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:行程">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴管内径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴管内径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管最大长度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管最大长度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管耐压 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管耐压">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管适用环境温度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:衬管适用环境温度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:规格型号 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:规格型号">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:许用拉力 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:许用拉力">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:伸缩捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:许用提拉负荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:许用提拉负荷">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活动外钩"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:质量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:质量">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:轴向 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:轴向">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:连接扣型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:连接扣型">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:连接螺纹代号 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:连接螺纹代号">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:退出工具方式 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:退出工具方式">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适应套管尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适应套管尺寸">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适应温度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适应温度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用井眼直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用井眼直径">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用套管尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用套管尺寸">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用套管直径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:适用套管直径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:配套倒扣规格 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:配套倒扣规格">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钻头外径 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钻头外径">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钻头总长 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钻头总长">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锚定套管（内径） -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锚定套管（内径）">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭合总长 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭合总长">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭合长度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭合长度">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击时计算载荷 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击时计算载荷">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:鱼头最大轴尺寸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:鱼头最大轴尺寸">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯鱼头捞筒"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#foaf:Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#geo:Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:DeadWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:DeadWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>报废井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:ExtensionWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:ExtensionWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>扩边井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:FlowingWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:FlowingWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>自喷井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:GasInjectionWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:GasInjectionWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>注气井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:GasWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:GasWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>气井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:InjectionWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:InjectionWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>注入井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:OffshoreWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:OffshoreWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>海上油井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:OilWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:OilWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>油井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:PetroleumProject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WaterInjectionWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WaterInjectionWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>注水井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WaterWell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WaterWell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+        <rdfs:label>水井</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:Well"/>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:三球打捞器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:不压井作业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:不压井作业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:修井作业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:不可退式抽油杆捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:不可退式抽油杆捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:丢手加固 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:丢手加固">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井口 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井口">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:修井作业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:修井作业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:伸缩捞矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:伸缩捞矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:侧斜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:侧斜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:侧钻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:侧钻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:修井作业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:修井作业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣安全接头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:偏心辊子整形器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:公锥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:公锥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锥类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他大修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他大修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他报废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他报废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他普修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:其他普修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:刮刀钻头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加深泵挂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加深泵挂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加深钻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加深钻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:加速器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:化学报废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:化学报废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:卡瓦捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可胀倒扣捞矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退式抽油杆捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退式抽油杆捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞矛（正扣）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退短鱼头捞筒（正扣）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:地面震击器（地面下击器）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:套铣筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:局部反循环打捞篮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:局部反循环打捞篮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:带压作业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:带压作业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开式下击器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:开窗捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯抽油杆捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯鱼头捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:弯鱼头捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:打捞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:抽油杆捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞抽油杆鱼骨外钩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞杆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞杆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井小修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞杯 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞杯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:捞缆绳鱼骨外钩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接箍捞矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:接箍捞矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式内割刀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:机械式外割刀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:梨形胀管器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:母锥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:母锥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锥类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:水泥报废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:水泥报废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:波纹管水力机械式套管补贴器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:波纹管水力机械式套管补贴器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:泥浆报废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:泥浆报废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:报废"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活动外钩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活动外钩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:活页捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:浅取 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:浅取">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压上击器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压密封加固 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:液压密封加固">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:深取 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:深取">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:井大修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:滑块捞矛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:燃爆密封加固 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:燃爆密封加固">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:爆炸松扣工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:爆炸松扣工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:倒扣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:牙轮钻头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:矛类打捞工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磁力打捞器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:小件打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨鞋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:磨铣类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:筒类打捞工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:篮式卡瓦捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:篮式卡瓦捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:聚能切割（爆炸）工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:聚能切割（爆炸）工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:切割类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:膨胀管加固 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:膨胀管加固">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋卡瓦捞筒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋卡瓦捞筒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:可退捞筒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋外钩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋外钩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋片外钩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:螺旋片外钩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:解卡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:解卡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:普修"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:负压作业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:负压作业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:软金属衬管补贴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:补贴类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:钩类打捞工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:铅模打印 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:铅模打印">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:WorkoverType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锥类打捞工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:锥类打捞工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长锥面胀管器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:长锥面胀管器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:整形类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:闭式下击器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#petro:震击类工具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#vivo:Equipment"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/雁寒leon/ontologies/2020/8/untitled-ontology-4#1"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
